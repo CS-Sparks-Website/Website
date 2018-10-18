@@ -1,0 +1,352 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"box",
+				"box-shadow\tproperty"
+			],
+			[
+				"ma",
+				"margin"
+			],
+			[
+				"pa",
+				"padding-top"
+			],
+			[
+				"paddi",
+				"padding-bottom"
+			],
+			[
+				"h",
+				"h1\tTag"
+			],
+			[
+				"max",
+				"max-height"
+			],
+			[
+				"min",
+				"min-width"
+			],
+			[
+				"di",
+				"div\tTag"
+			],
+			[
+				"fo",
+				"foreach\tforeach …"
+			],
+			[
+				"ac",
+				"action\tAttr"
+			],
+			[
+				"nam",
+				"nameLen"
+			],
+			[
+				"get",
+				"getElementsByTagName"
+			],
+			[
+				"background-c",
+				"background-color"
+			],
+			[
+				"ge",
+				"getElementById"
+			],
+			[
+				"va",
+				"value"
+			],
+			[
+				"val",
+				"value1"
+			],
+			[
+				"in",
+				"innerHTML"
+			],
+			[
+				"spe",
+				"mySpecPara"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"fir",
+				"first_name"
+			],
+			[
+				"fi",
+				"first_name"
+			],
+			[
+				"pr",
+				"prompt"
+			],
+			[
+				"mon",
+				"monkey_love"
+			],
+			[
+				"te",
+				"text-align"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"text",
+				"text-orientation"
+			],
+			[
+				"bac",
+				"background-color"
+			],
+			[
+				"border-co",
+				"border-color"
+			],
+			[
+				"boder",
+				"border"
+			],
+			[
+				"lis",
+				"list-style"
+			],
+			[
+				"list",
+				"list-style-type"
+			],
+			[
+				"text-d",
+				"text-decoration-style"
+			],
+			[
+				"font",
+				"font-style"
+			],
+			[
+				"fot",
+				"font-size"
+			],
+			[
+				"col",
+				"color"
+			],
+			[
+				"st",
+				"style\tTag"
+			],
+			[
+				"opt",
+				"option\tTag"
+			],
+			[
+				"op",
+				"option\tTag"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/home/thomas/Computer Science/CS library/Notes For Professionals Series/readme.txt",
+		"/home/thomas/Computer Science/My programs/style.css",
+		"/home/thomas/Computer Science/My programs/project.php",
+		"/home/thomas/Computer Science/My programs/index.html",
+		"/opt/lampp/htdocs/Practical7/q4.html",
+		"/opt/lampp/htdocs/Practical7/q4.php",
+		"/opt/lampp/htdocs/Practical7/q3.php",
+		"/opt/lampp/htdocs/Practical7/footer.php",
+		"/opt/lampp/htdocs/Practical7/q2.php",
+		"/home/thomas/Computer Science/My programs/comp20030/practical1/q4.html",
+		"/home/thomas/Computer Science/My programs/comp20030/practical1/q1.html",
+		"/home/thomas/Computer Science/My programs/comp20030/practical1/q2.html",
+		"/home/thomas/Computer Science/My programs/comp20030/practical1/q3.html",
+		"/home/thomas/Computer Science/My programs/comp20030/practical1/q5.html",
+		"/home/thomas/Computer Science/My programs/comp20030/practical5/q2.html",
+		"/home/thomas/Computer Science/My programs/comp20030/practical5/q1.html",
+		"/home/thomas/Computer Science/My programs/comp20030/practical5/q3.html",
+		"/home/thomas/Computer Science/My programs/comp20030/practical5/q4.html",
+		"/home/thomas/Computer Science/My programs/comp20030/practical5/Practical5.js",
+		"/home/thomas/Computer Science/My programs/comp20030/practical4/q1.html",
+		"/home/thomas/Computer Science/My programs/comp20030/practical4/q2.html",
+		"/home/thomas/Computer Science/My programs/comp20030/practical4/q3.html",
+		"/home/thomas/Computer Science/My programs/comp20030/practical4/q4.html",
+		"/home/thomas/Computer Science/My programs/comp20030/practical2/q2.html",
+		"/home/thomas/Computer Science/My programs/comp20030/practical2/prac2.css",
+		"/home/thomas/Computer Science/My programs/comp20030/practical2/q4.html",
+		"/home/thomas/Computer Science/My programs/comp20030/practical2/test.css",
+		"/home/thomas/Computer Science/My programs/comp20030/practical2/test.html",
+		"/home/thomas/Computer Science/My programs/comp20030/practical2/q3.html",
+		"/home/thomas/Computer Science/My programs/comp20030/practical2/q1.html",
+		"/home/thomas/Computer Science/My programs/comp20030/practical2/q3 (copy).html",
+		"/home/thomas/College/My programs/Practice programs/array.c"
+	],
+	"find":
+	{
+		"height": 39.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 34.0
+	},
+	"input":
+	{
+		"height": 38.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "Packages/User/chrome.sublime-build",
+	"project": "README.sublime-project",
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"practical1/q2.html"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 178.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
