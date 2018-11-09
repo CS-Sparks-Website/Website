@@ -1,0 +1,65 @@
+/*
+Theme Name: Test 
+Theme URI: https://wordpress.org/themes/twentyfifteen/
+Author: TC
+Author URI: https://wordpress.org/
+Description: Our 2015 default theme is clean, blog-focused, and designed for clarity. Twenty Fifteen's simple, straightforward typography is readable on a wide variety of screen sizes, and suitable for multiple languages. We designed it using a mobile-first approach, meaning your content takes center-stage, regardless of whether your visitors arrive by smartphone, tablet, laptop, or desktop computer.
+Version: 2.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: blog, two-columns, left-sidebar, accessibility-ready, custom-background, custom-colors, custom-header, custom-logo, custom-menu, editor-style, featured-images, microformats, post-formats, rtl-language-support, sticky-post, threaded-comments, translation-ready
+Text Domain: twentyfifteen
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+
+@import url('vendor/bootstrap/css/bootstrap.min.css');
+@import url('vendor/fontawesome-free/css/all.min.cs');
+@import url('vendor/simple-line-icons/css/simple-line-icons.css');
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic');
+@import url('css/landing-page.min.css');
+
+
+
+
+.Center{
+    text-align:center;
+}
+
+.hero-image {
+    height: 50%;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/Banner.jpg") no-repeat center;
+    background-size: cover;
+    position: relative;
+}
+
+.hero-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-family: Lora,'Arial',sans-serif;
+    font-size: 20px;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.65);
+
+    /*Sampled from Innovation Academy*/
+    background-color: #ff31a7; /*Change to match logo pink*/
+    border-radius: 4px;
+    padding: 0.188em 0.375em;
+    line-height: 1.2; /*Keeps text border narrow*/
+    
+
+}
+
+.main-heading {
+    font-size: 17pt;
+    color: Black;
+    width: 80%; /* some amount that you set */
+    min-width:350px;
+    max-width:1000px;
+    text-align:center;
+    margin:0 auto;
+}
