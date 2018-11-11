@@ -1,45 +1,39 @@
 <?php get_header(); ?>
-  <div id="primary" class="content-area">
-    <main id="main" class="site-main" role="main">
 
-    <?php if ( have_posts() ) : ?>
+          <section class="showcase">
+            <div class="container-fluid p-0">
+        <?php
+          if ( have_posts() ) :
+          $postCounter = 0;
 
-      <?php if ( is_home() && ! is_front_page() ) : ?>
-        <header>
-          <h1 class="page-title screen-reader-text"><?php single_post_title(); ?></h1>
-        </header>
-      <?php endif; ?>
+                    /* Start the Loop */
+                    while ( have_posts() ) : the_post();
+            $pos = $postCounter % 2 +1;
+            $posC = 3-$pos;
+            $featured_img = get_the_post_thumbnail_url('','full');
+        
+            echo"<div class='row no-gutters'>";
+            //echo"<div class='col-lg-6 order-lg-$posC text-white showcase-img' style='background-image:url(". get_template_directory_uri() . "/img/2017Classroom.jpg)';></div>";
+            echo"<div class='col-lg-6 order-lg-$posC text-white showcase-img' style='background-image:url($featured_img)';></div>";
+        
+            //echo get_the_post_thumbnail();
+            echo"<div style='padding-left:112px; padding-right:112px;' class='col-lg-6 order-lg-$pos my-auto showcase-text'>";
+                        echo "<h2>" . get_the_title() . "</h2>";
+              echo "<p class='post-meta'>Posted on ". get_the_date() . "</p>";
+              echo "<p class='lead mb-0'>" . get_the_content() . "</p>";
+            echo "</div>";
+            echo "</div>";
+            $postCounter++;
+          
 
-      <?php
-      // Start the loop.
-      while ( have_posts() ) : the_post();
 
-        /*
-         * Include the Post-Format-specific template for the content.
-         * If you want to override this in a child theme, then include a file
-         * called content-___.php (where ___ is the Post Format name) and that will be used instead.
-         */
-        get_template_part( 'template-parts/content', get_post_format() );
+                    endwhile;
+        endif;
+        ?>
+                
+        </div>
+      </section>
 
-      // End the loop.
-      endwhile;
-
-      // Previous/next page navigation.
-      the_posts_pagination( array(
-        'prev_text'          => __( 'Previous page', 'twentysixteen' ),
-        'next_text'          => __( 'Next page', 'twentysixteen' ),
-        'before_page_number' => '<span class="meta-nav screen-reader-text">' . __( 'Page', 'twentysixteen' ) . ' </span>',
-      ) );
-
-    // If no content, include the "No posts found" template.
-    else :
-      get_template_part( 'template-parts/content', 'none' );
-
-    endif;
-    ?>
-
-    </main><!-- .site-main -->
-  </div><!-- .content-area -->
 
 
 
@@ -83,6 +77,7 @@
 
             <div class="testimonial-item mx-auto mb-5 mb-lg-0">
               <img class="img-fluid mb-3 " src="<?php bloginfo('template_url'); ?>/img/GoogleLogo.png" style="box-shadow: none;" alt="">
+        <p class="font-weight-light mb-0" style='margin-top: 16px; word-spacing: 40px;'>#GoogleforEdu #CSEd</p>
 
           <!--
           <div class="col-lg-4">
@@ -96,7 +91,7 @@
             <div class="testimonial-item mx-auto mb-5 mb-lg-0">
               <img class="img-fluid rounded-circle mb-3" src="img/testimonials-3.jpg" alt="">
               <h5>Sponsor C</h5>
-              <p class="font-weight-light mb-0">n/a / Their contribution</p>
+              <p class="font-weight-light mb-0">#CSEd  #GoogleforEdu</p>
             </div>
           </div>
       -->
@@ -142,6 +137,8 @@
       </div>
     </footer>
 
+
     <!-- Bootstrap core JavaScript -->
-    <script src="vendor/jquery/jquery.min.js"></script>
-    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="<?php bloginfo('template_url');?>/vendor/jquery/jquery.min.js"></script>
+    <script src="<?php bloginfo('template_url');?>/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+</html>

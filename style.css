@@ -12,13 +12,30 @@ Text Domain: twentyfifteen
 
 This theme, like WordPress, is licensed under the GPL.
 Use it to make something cool, have fun, and share what you've learned with others.
-*/
 
+<!--
+    
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    
+    <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
+    <link href="vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+
+    
+    <link href="css/landing-page.min.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+-->
+
+
+*/
 @import url('vendor/bootstrap/css/bootstrap.min.css');
-@import url('vendor/fontawesome-free/css/all.min.cs');
+@import url('css/landing-page.css');
+@import url('vendor/fontawesome-free/css/all.min.css');
 @import url('vendor/simple-line-icons/css/simple-line-icons.css');
 @import url('https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic');
-@import url('css/landing-page.min.css');
+
+
 
 
 
